@@ -30,3 +30,36 @@
 }
 
 /* Banner Section style */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(155, 238, 221);
+}
+
+.banner-title{
+    font-size: 50px;
+}
+
+.banner-description{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 8px 18px;
+    background-color: rgb(156, 80, 164);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: green;
+    color: tomato;
+}
+
+.banner-img{
+    width: 300px;
+}
