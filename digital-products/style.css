@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navbar section styles */
+.nav-container{
+    background-color: rgb(0, 217, 166);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-photo{
+    width: 130px;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    font-size: 20px;
+}
+.item:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+/* Banner Section style */
