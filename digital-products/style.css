@@ -4,7 +4,31 @@
 }
 
 
+/* Share Style */
+/* ----------------------------------------- */
+.section-title{
+    font-size: 50px;
+}
+
+.section-description{
+    font-size: 20px;
+    width: 400px;
+    text-wrap: wrap;
+}
+
+.btn{
+    padding: 8px 18px;
+    background-color: rgb(156, 80, 164);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+
 /* Navbar section styles */
+/* -------------------------------------------------- */
 .nav-container{
     background-color: rgb(0, 217, 166);
     height: 70px;
@@ -30,28 +54,13 @@
 }
 
 /* Banner Section style */
+/* ----------------------------------------- */
 .banner-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
     background-color: rgb(155, 238, 221);
-}
-
-.banner-title{
-    font-size: 50px;
-}
-
-.banner-description{
-    font-size: 20px;
-}
-
-.btn{
-    padding: 8px 18px;
-    background-color: rgb(156, 80, 164);
-    color: white;
-    font-weight: bold;
-    margin-top: 10px;
 }
 
 .btn:hover{
@@ -62,4 +71,100 @@
 
 .banner-img{
     width: 300px;
+}
+
+
+/* About Section Style */
+/* ---------------------------------- */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+
+
+.about-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-heading{
+    font-size: 35px;
+}
+
+.about-image{
+    width: 300px;
+}
+
+
+/* Our Service Section Styles */
+/* ----------------------------------- */
+.service-title{
+    text-align: center;
+}
+
+.service-container{
+    padding: 50px 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.service-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.icon{
+    width: 90px;
+}
+
+.service-card{
+    width: 200px;
+    height: 280px;
+    /* border: 1px solid gray; */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px  2px 71px gray;
+    border-radius: 10px;
+}
+
+.btn-service{
+    padding: 5px 10px;
+    margin-top: 50px;
+}
+
+
+/* Footer-container */
+/* --------------------------------------------- */
+.footer-container{
+
+    padding: 80px 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: px;
+}
+
+.line{
+    font-size: 5px;
+    color: white;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.color{
+    background-color: black;
+}
+
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 100px;
+    margin-top: 10px;
 }
