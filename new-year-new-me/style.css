@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container2{
+    position: relative;
+}
+
+.banner-title{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    direction: rtl;
+    font-size: 48px;
+    width: 525px;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-description{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    direction: rtl;
+    width: 525px;
+}
+
+.btn-banner{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background: #F15B22;
+}
+
+
+/* Failures Section Styles */
+/* -------------------------------------- */
+.failures-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failures-imgage{
+    width: 450px;
+}
+
+.failures-text{
+    width: 416px;
+}
+
+.failures-title{
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+
+/* My plans section style */
+/* ------------------------------------ */
+
+.plan-title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-title{
+    font-size: 30px;
+}
+
+.skill-description{
+    font-size: 25px;
+
+}
+
+/* Positive section Style */
+/* -------------------------------- */
+.positive-container{
+    background: url('./images/watch.png');
+    width: 1140px;
+    height: 300px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* footer section style */
+/* ---------------------------------- */
+.footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    height: auto;
+    padding: 100px 50px;
+}
+
+.future{
+    width: 485px;
+}
+
