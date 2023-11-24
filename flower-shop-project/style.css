@@ -15,6 +15,7 @@ body{
     border-radius: 8px;
     background: #E55473;
     color: white;
+    border: 0px;
 }
 
 .section-title{
@@ -26,6 +27,10 @@ body{
 .section-description{
     text-align: center;
     font-size: 18px;
+}
+
+.primary-color{
+    color: #E55473;
 }
 
 
@@ -62,3 +67,130 @@ body{
     margin-top: 100px;
 }
 
+.feature-background{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1{
+    position: absolute;
+    top: 1011px;
+    left: 80px;
+}
+.img2{
+    position: absolute;
+    top: 970px;
+    left: 630px;
+}
+.img3{
+    position: absolute;
+    top: 1065px;
+    right: 60px;
+}
+
+
+.feature-icons{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Hot deal styles */
+.hot-deal-container{
+    background: rgba(229, 84, 115, 0.05);   
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hot-deal-title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hot-deal-description{
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Instagram section style */
+.insta-photos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.insta-img{
+    width: 300px;
+}
+
+.insta-title{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.insta-description{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* latest deals style */
+.latest-deal-container{
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.deal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.deal-title{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.input{
+    margin-top: 20px;
+    width: 400px;
+    height: 35px;
+    padding: 5px 30px;
+}
+
+
+/* Footer style */
+.footer{
+    margin-top: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.footer-title{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.copy-right{
+    margin-top: 40px;
+    font-size: 14px;
+}
